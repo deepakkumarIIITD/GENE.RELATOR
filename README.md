@@ -1,6 +1,12 @@
 # GENE.RELATOR
 a open source software to compare genome sequences and get valuable information.
 
+SOME GENOME SEQUENCES ARE ALSO PRESENT IN SEQUENCES FOLDER.
+
+THEIR LINKS IN SEQUENCES LINK FOLDER AS TEXT FILE.
+
+SOME COMPUTED RESULTES ARE PRESENT IN RESULTS FIE.
+
 WEBSITE : https://itsmrvaibhav.github.io/gene-relator/
 
 HOW TO INSTALL (LINKS FOR ALL SOFTWARES PRESENT IN WEBSITE) :
