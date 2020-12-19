@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.information">
+    <children>
+        <ImageView fitHeight="720.0" fitWidth="1280.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@Resources/back.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="720.0" fitWidth="1280.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@Resources/backb.png" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="118.0" layoutX="523.0" layoutY="550.0" onMouseClicked="#back" stroke="#ffffff00" strokeType="INSIDE" width="238.0" />
+        <TextArea fx:id="textarea" editable="false" layoutX="110.0" layoutY="67.0" prefHeight="444.0" prefWidth="880.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="60.0">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </TextArea>
+    </children>
+</AnchorPane>
